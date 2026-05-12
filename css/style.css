@@ -168,3 +168,33 @@ a {
     font-weight: 700px;
     width: max-content;
 }
+/* .gallery-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+} */
+
+.gallery-info h4 {
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: 700px;
+}
+.gallery-info p {
+    font-size: 16px;
+    font-weight: 600px;
+}
+.gallery {
+    margin-top: 166px;
+    display: flex;
+    gap: 90px;
+    align-items: center;
+}
+.gallery-list {
+    display: flex;
+    gap: 60px;
+}
+.gallery-list li {
+    max-width: 240px;
+    border-radius: 5px;
+    overflow: hidden;
+}
